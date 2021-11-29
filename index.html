@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+    <!--  press Cmd/Ctrl and / to comment/uncomment    -->
+    <title>Tab Title</title>
+    
+    <!-- Fill out this section for SEO and social sharing -->
+    <meta name="description" content="Your short description goes here"> <!-- The websum -->
+
+    <meta name="twitter:title" content="Your headline goes here" /> <!-- The webhed -->
+    <meta name="twitter:description" content="The first sentence goes here" /> <!-- The websum -->
+    <meta name="twitter:image:src" content="https://cdn.glitch.me/fff98f2b-91d6-47df-a69a-4a9d85651b38%2FScreen%20Shot%202021-11-29%20at%208.40.24%20AM.png" /> <!-- the img URL -->
+
+    <meta property="og:image" content="https://cdn.glitch.me/fff98f2b-91d6-47df-a69a-4a9d85651b38%2FScreen%20Shot%202021-11-29%20at%208.40.24%20AM.png?v=1638197993641" /> <!-- The img URL -->
+
+    <meta property="og:type" content="article" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="yoursite" />
+    <!-- import your final project's stylesheet and Google Fonts -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar-scheduler/4.0.2/resource-timeline/main.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- import Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import your final project's javascript files -->
+    <!-- please just use this line for this project only as it contains my own Font Awesome key. You can replace with your own Awesome code though. -->
+    <script
+      src="https://kit.fontawesome.com/740e6c08cb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- DataTable-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/v/dt/jq-3.6.0/dt-1.11.3/datatables.min.css"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/v/dt/jq-3.6.0/dt-1.11.3/datatables.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Hero image (the main image of the page; this can be a photoshop arrangement, a video, or a vector graphics; just pick one option) -->
+    <div id="heroimg">
+      <!-- upload an image/graphic to the assets and copy the link and paste inside src="", add a short name to alt="" -->
+      <img
+        src="https://cdn.glitch.me/fff98f2b-91d6-47df-a69a-4a9d85651b38%2Fheroimg.svg?v=1634492982965"
+        alt="placeholder"
+        width="300px"
+        height="150px"
+      />
+
+      <!-- Upload a video to the assets and copy the link and write the following code
+        <video width="100%" height="100%" controls> 
+           <source src="" type="video/mp4">
+        </video>
+        Make sure you add the link between src=""
+        -->
+
+      <!-- Instead of uploading a video, you can copy the emmbedded code of a YouTube video and paste here-->
+    </div>
+
+    <!-- the headings of your story -->
+    <div id="intro">
+      <h1>Add the headline of your story here</h1>
+      <p class="byline">Add your bylines | For MC 316</p>
+      <p class="date">
+        Published 00:00 AM CDT Oct.16, 2021
+        <b>| Updated 10:40 AM CDT Oct. 17, 2021</b>
+      </p>
+    </div>
+
+    <!-- social media menu (replace the placeholders with your real facebook, twitter, instagram links-->
+    <div id="social">
+      <ul>
+        <li>
+          <a href="https://twitter.com/intent/tweet?source=https://mc316-template-f21.glitch.me/&text=:%20https://mc316-template-f21.glitch.me/" target="_blank" id="twitter"
+             onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20' + encodeURIComponent(document.URL)); return false;"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://facebook.com/sharer/sharer.php?u=https://mc316-template-f21.glitch.me/&quote=" target="_blank" title="Share on Facebook" id="facebook"
+            onclick=
+
+"window.open('https://facebook.com/sharer/sharer.php?u='+ encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;"
+><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://instagram.com/" target="_blank" id="instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- start writing your story below-->
+    <div class="main-text">
+      <p>
+        Write your paragraphs here, embed your hyperlinks here
+      </p>
+      <p data-dummytext="">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+
+    <!-- your first section -->
+    <h3>Your first subheading goes here</h3>
+    <!-- add your first graphics here -->
+    <div id="graphic-1">
+      <!-- if you are using Flourish Studio copy the embedded code and replace my code below -->
+      <div class="flourish-embed" data-src="visualisation/7511942">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+      </div>
+    </div>
+
+    <!-- if you are using Highchart JS, add a pair of script tags below and write the code in between; make sure you replace "container" with "graphic-1"-->
+
+    <div class="main-text">
+      <p>
+        Continue writing your paragraphs
+      </p>
+      <p data-dummytext="">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+
+    <!-- your second section -->
+    <h3>Your second subheading goes here</h3>
+
+    <!-- add your second graphics here -->
+    <div id="graphic-2">
+      <!-- if you are using Highchart JS, make sure you replace "container" with "graphic-2" in the script.js file-->
+    </div>
+
+    <!-- import external scripts from other JS libraries -->
+    <!-- Highcharts-->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+    <figure class="highcharts-figure">
+      <div id="graphic-2"></div>
+      <p class="highcharts-description">
+        Caption for your chart goes here
+      </p>
+    </figure>
+
+    <!-- Custom Script -->
+    <script src="/script.js"></script>
+
+    <div class="main-text">
+      <p>
+        Continue writing your paragraphs.
+      </p>
+      <p data-dummytext="">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+
+    <!-- your third section -->
+
+    <h3>Your third subheading goes here</h3>
+
+    <!-- add your third graphics here -->
+    <div id="graphic-3">
+      <table
+        id="dt-table"
+        class="display"
+        width="100%"
+        style="text-align: center;"
+      >
+        <thead>
+          <tr>
+            <th>State</th>
+            <th>Positive</th>
+            <th>Death</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+
+    <div class="main-text">
+      <p>
+        Continue writing your paragraphs
+      </p>
+      <p data-dummytext="">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+
+    <!-- your data methodology section -->
+
+    <div id="data-method">
+      <p></p>
+      <p>
+        METHODOLOGY <br />
+        In this last paragraph, you will explain to your readers where you got
+        your data, along with the hyperlink(s). Next, explain how you analyzed
+        your data. You will also include a downloaded link to your cleaned CSV.
+      </p>
+    </div>
+
+    <!-- add more credits to your teammates  -->
+    <section class="credits">
+      <div class="credtx">
+        Editor |
+        <a href="https://twitter.com/" target="_blank">Student Editor</a>
+      </div>
+      <div class="credtx">
+        Data Visualization |
+        <a href="https://twitter.com/" target="_blank">Student Designer</a>
+      </div>
+      <div class="credtx">
+        Photo/Video |
+        <a href="https://twitter.com/" target="_blank">Student Photographer</a>
+      </div>
+      <div class="credtx">
+        Web Development |
+        <a href="https://twitter.com/" target="_blank">Student Web Developer</a>
+      </div>
+    </section>
+
+    <!-- add things to your footer-->
+    <footer>
+      <p>© Copyright 2021, Manhattan, KS</p>
+    </footer>
+    
+    
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K9KSZGF');</script>
+<!-- End Google Tag Manager -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-xxxxxxxxxx"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-xxxxxxxxxx');
+</script>
+
+    <!-- google analytics script -->
+    <script>
+      (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] ||
+          (b[l] = function() {
+            (b[l].q = b[l].q || []).push(arguments);
+          });
+        b[l].l = +new Date();
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = "https://www.google-analytics.com/analytics.js";
+        r.parentNode.insertBefore(e, r);
+      })(window, document, "script", "ga");
+      ga("create", "UA-xxxxxxxx-x", "auto"); // Fill in with actual UA-
+      ga("send", "pageview");
+    </script>
+
+    <script
+      data-ad-client=""
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    >
+      // fill in with data ad client
+    </script>
+  </body>
+</html>
